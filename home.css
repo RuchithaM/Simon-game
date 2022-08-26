@@ -1,0 +1,37 @@
+body{
+  background-color: #5b5ad2;
+  color: #fff;
+  text-align: center;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  /* margin-top: 10%; */
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: #b3b5fc;
+}
+
+#header{
+  padding-top: 5%;
+}
+
+.homeImage{
+    margin-top: 3rem;
+    transform: rotate(-20deg);
+    height: 25rem;
+}
+.play{
+  font-family: 'Caveat', cursive;
+  font-size: 5rem;
+  transform: rotate(-10deg);
+}
+
+.heartIcon{
+  color: #b3b5fc;
+}
