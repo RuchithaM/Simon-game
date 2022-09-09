@@ -36,6 +36,7 @@ if(userClickedPattern.length  === gamePattern.length ){
 }
 }else{
   playSound("wrong");
+  await sleep(500ms);
   $("body").addClass("game-over");
   setTimeout(function(){$("body").removeClass("game-over");},200);
   $("#level-title").text("Game Over, Press Any Key to Restart");
