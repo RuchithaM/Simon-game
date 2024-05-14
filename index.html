@@ -39,7 +39,25 @@
       <h3 class="col">Best <div class="bestscore">0</div></h3>
     </div>
 
-
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+ 
+			embeddedservice_bootstrap.init(
+				'00DE1000001p6MG',
+				'ChatForm_Test',
+				'https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWChatFormTest1715604711988',
+				{
+					scrt2URL: 'https://geisingerhealthsys--hcrmdev.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWChatFormTest1715604711988/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 
 
