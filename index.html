@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <title>Simon</title>
 
   <!-- bootstrapcdn -->
@@ -64,15 +64,24 @@ has context menu
       <h3 class="col">Best <div class="bestscore">0</div></h3>
     </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src= "play.js"></script>
+<!-- Bootstrap JS Bundle -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/8228872f82.js" crossorigin="anonymous"></script>
+<!--start-->
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
- 
+
 			embeddedservice_bootstrap.init(
 				'00DE1000001p6MG',
-				'ChatForm_Test',
-				'https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWChatFormTest1715604711988',
+				'PreChatForm',
+				'https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWPreChatForm1715617327264',
 				{
 					scrt2URL: 'https://geisingerhealthsys--hcrmdev.sandbox.my.salesforce-scrt.com'
 				}
@@ -82,18 +91,10 @@ has context menu
 		}
 	};
 </script>
-<script type='text/javascript' src='https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWChatFormTest1715604711988/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWPreChatForm1715617327264/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<!--END-->
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src= "play.js"></script>
-<!-- Bootstrap JS Bundle -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- font awesome -->
-<script src="https://kit.fontawesome.com/8228872f82.js" crossorigin="anonymous"></script>
+	
 </body>
 
 </html>
