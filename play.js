@@ -7,7 +7,7 @@ var bestscore=0;
 var level=0;
 var started=false;
 
-$(document).click(function(){
+$(document).keypress(function(){
   if(!started){
 
 
